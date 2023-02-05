@@ -54,7 +54,10 @@ function App() {
           {jobs.map((item, index) => {
             return (
               <button
-                className='job-btn'
+                className={`job-btn ${index === value && 'active-btn'}`}
+                /*
+                 * if the index = value of clicked button add active-btn class
+                 */
                 key={index}
                 onClick={() => setValue(index)}
               >

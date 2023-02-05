@@ -222,6 +222,7 @@ Jobs
   .jobs-center {
     width: 90vw;
     display: grid;
+    grid-template-columns: 200px 1fr;
     column-gap: 4rem;
   }
   .btn-container {

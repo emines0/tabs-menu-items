@@ -5,4 +5,5 @@
 - fetch data form API
 - useState for loading, jobs
 - return html based on state condition
--
+- display data of clicked job
+- add css of active button
